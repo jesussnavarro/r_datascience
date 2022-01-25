@@ -54,3 +54,7 @@ ggplot(data, aes(x=xValue, y=yValue)) +
        title = 'Evolucion de la Deuda Externa (Venezuela)',
        subtitle = '         (1997-2018)',
        caption = 'Fuente: Elaboración propia utilizando datos del BCV.')
+
+
+# Guardar como gif:
+anim_save("deuda-externa-venezuela.gif")
